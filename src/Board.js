@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Square from './components/Square';
 
-export default function Board({ xIsNext, squares, onPlay }) {
+export default function Board({xIsNext, squares, onPlay}) {
  /*  const [xIsNext, setXIsNext] = useState(true)
   const [squares, setSquares] = useState(Array(9).fill(null)) */
   
